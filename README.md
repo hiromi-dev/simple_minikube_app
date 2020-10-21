@@ -21,6 +21,12 @@ kubectl apply -f deployment_worker.yaml
 
 ```
 
+## confirmation 　
+
+```
+watch 'kubectl get pod,svc,ingress,replicaset,deployment -o wide'
+```
+
 ## get IP from ingress
 
 ```
